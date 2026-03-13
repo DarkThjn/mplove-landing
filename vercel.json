@@ -5,10 +5,11 @@
       "dest": "https://darkthjn.github.io/gift-website/"
     },
     {
-      "src": "/wishlist-mplinh",
-      "dest": "https://wishlist-mplinh.vercel.app"
+      "src": "/wishlist",
+      "dest": "https://wishlist-mplinh.vercel.app/"
     }
   ]
 
 }
+
 
