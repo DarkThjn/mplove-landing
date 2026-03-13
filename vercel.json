@@ -8,6 +8,7 @@
       "src": "^/gift/(.*)",
       "dest": "https://gift-website-drab.vercel.app/$1"
     },
+
     {
       "src": "^/wishlist$",
       "dest": "https://wishlist-mplinh.vercel.app/"
@@ -18,5 +19,3 @@
     }
   ]
 }
-
-
