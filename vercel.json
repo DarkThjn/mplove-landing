@@ -2,19 +2,20 @@
   "routes": [
     {
       "src": "^/gift$",
-      "dest": "https://gift-website-drab.vercel.app"
+      "dest": "https://gift-website-drab.vercel.app/"
     },
     {
       "src": "^/gift/(.*)",
-      "dest": "https://gift-website-drab.vercel.app/$1"
+      "dest": "https://gift-website-drab.vercel.app/$1/"
     },
     {
       "src": "^/wishlist$",
-      "dest": "https://wishlist-mplinh.vercel.app"
+      "dest": "https://wishlist-mplinh.vercel.app/"
     },
     {
       "src": "^/wishlist/(.*)",
-      "dest": "https://wishlist-mplinh.vercel.app/$1"
+      "dest": "https://wishlist-mplinh.vercel.app/$1/"
     }
   ]
 }
+
