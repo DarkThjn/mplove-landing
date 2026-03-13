@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "src": "/gift",
+      "dest": "https://darkthjn.github.io/gift"
+    },
+    {
+      "src": "/wishlist",
+      "dest": "https://wishlist-mplinh.vercel.app"
+    }
+  ]
+}
