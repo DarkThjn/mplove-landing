@@ -6,7 +6,7 @@
     },
     {
       "src": "^/gift/(.*)",
-      "dest": "https://gift-website-drab.vercel.app/$1/"
+      "dest": "https://gift-website-drab.vercel.app/$1"
     },
     {
       "src": "^/wishlist$",
@@ -14,8 +14,9 @@
     },
     {
       "src": "^/wishlist/(.*)",
-      "dest": "https://wishlist-mplinh.vercel.app/$1/"
+      "dest": "https://wishlist-mplinh.vercel.app/$1"
     }
   ]
 }
+
 
