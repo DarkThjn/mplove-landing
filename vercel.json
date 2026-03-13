@@ -2,14 +2,19 @@
   "routes": [
     {
       "src": "/gift",
-      "dest": "https://darkthjn.github.io/gift-website/"
+      "dest": "https://gift-website.vercel.app"
+    },
+    {
+      "src": "/gift/(.*)",
+      "dest": "https://gift-website.vercel.app/$1"
     },
     {
       "src": "/wishlist",
-      "dest": "https://wishlist-mplinh.vercel.app/"
+      "dest": "https://wishlist-mplinh.vercel.app"
+    },
+    {
+      "src": "/wishlist/(.*)",
+      "dest": "https://wishlist-mplinh.vercel.app/$1"
     }
   ]
-
 }
-
-
