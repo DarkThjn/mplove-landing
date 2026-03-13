@@ -1,6 +1,11 @@
 {
   "routes": [
     {
+      "src": "/admin",
+      "dest": "/admin.html"
+    },
+
+    {
       "src": "^/gift$",
       "dest": "https://gift-website-drab.vercel.app/"
     },
@@ -19,3 +24,4 @@
     }
   ]
 }
+
