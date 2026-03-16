@@ -1,11 +1,6 @@
 {
   "routes": [
     {
-      "src": "^/admin$",
-      "dest": "https://wishlist-mplinh.vercel.app/admin.html"
-    },
-
-    {
       "src": "^/gift$",
       "dest": "https://gift-website-drab.vercel.app/"
     },
