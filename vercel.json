@@ -1,6 +1,15 @@
 {
   "routes": [
     {
+      "src": "^/vhb-webapp$",
+      "dest": "https://vhb-group-webapp.vercel.app/vhb-webapp"
+    },
+    {
+      "src": "^/vhb-webapp/(.*)",
+      "dest": "https://vhb-group-webapp.vercel.app/vhb-webapp/$1"
+    },
+
+    {
       "src": "^/gift$",
       "dest": "https://gift-website-drab.vercel.app/"
     },
